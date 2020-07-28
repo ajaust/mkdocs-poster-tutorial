@@ -4,7 +4,7 @@ This README briefly explains what software needs to be installed and where to fi
 
 ## Installing dependencies
 
-The **mandatory** requirements for the tutorial are `mkdocs` and the `mkdocs-material` theme. This includes some dependencies such as `Pygments` and `pymdown-extensions`. 
+The **mandatory** requirements for the tutorial are `mkdocs` and the `mkdocs-material` theme. This includes some dependencies such as `Pygments` and `pymdown-extensions`.  This might be available via your package manager, but the packages might be old.
 
 1. Install pip for python3
 ```
