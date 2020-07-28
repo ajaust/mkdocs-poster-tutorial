@@ -72,3 +72,6 @@ def add_one(number):
   <a href="rotgauss.ogg">ogg</a>
 </p>
 
+## asciinema
+
+<asciinema-player preload poster="npt:0:1" cols="90" src="./precice.cast"></asciinema-player>
