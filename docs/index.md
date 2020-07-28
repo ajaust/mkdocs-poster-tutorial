@@ -1,17 +1,58 @@
 # Welcome to MkDocs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+!!! abstract "Full abstract"
+    This is my abstract
+    
+??? abstract "Full abstract (collapsible)"
+    This is my abstract
 
-## Commands
+## Images
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+<p align="center">
+  <img width="40%" src="square_transparent.svg">
+  <img width="40%" src="square_transparent.png">
+</p>
+<center>
+*Figure 1: Square with transparent fill.*
+</center>
 
-## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+<p align="center">
+  <a href="https://www.precice.org/" target="_blank">
+    <img width="40%" src="square_white.svg">
+  </a>
+  <a href="https://sgpp.sparsegrids.org/" target="_blank">
+    <img width="40%" src="square_transparent.png">
+  </a>
+</p>
+<center>
+*Figure 2: Square with white fill.*
+</center>
+
+## LaTeX
+
+Some text with a mathematical symbol $\pi$.
+
+$$\pi = 3$$ 
+
+\begin{equation}
+  \pi = 3
+\end{equation}
+
+\[ \pi = 3 \]
+
+
+## Code highlighting
+
+```c++
+int function( const std::string &s )
+{
+  return 4;
+}
+```
+
+```python
+def add_one(number):
+  return number + 1
+```
+
