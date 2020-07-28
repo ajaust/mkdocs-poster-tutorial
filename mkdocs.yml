@@ -1,1 +1,23 @@
-site_name: My Docs
+site_name: Poster
+
+site_description: Posters of Alexander Jaust
+site_author: Alexander Jaust
+site_url: https://posters.jaust.net/ajaust
+
+nav:
+  - My awesome poster: index.md
+  
+theme:
+  name: 'material'
+  
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - codehilite
+  - pymdownx.arithmatex 
+  
+extra_javascript:
+  - javascripts/extra.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML   
+  
